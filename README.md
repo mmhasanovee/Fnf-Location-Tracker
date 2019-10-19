@@ -15,7 +15,7 @@ and paste the json data on **Fnf-Location-Tracker-Master/App/google-services.jso
 2. Connect with your Google Maps api from Google Cloud Console. Copy the Android api key and add it to 
 **Fnf-Location-Tracker-Master/App/debug/res/values/google_maps_api.xml** file's **Your-Key-Here position**. Replace the Your-Key-Here by
 Google Maps Android Api key.
-3. Run the project. It will download the Gradle/other needed files.
+3. Run the project. It will download the Gradle/other files itself.
 
 ## Features
 
