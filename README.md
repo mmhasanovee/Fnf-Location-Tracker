@@ -1,8 +1,7 @@
 # Fnf-Location-Tracker
 Android app to track your friends and family current location.
-![alt text](https://i.ibb.co/ZVQTXby/Screenshot-2019-10-19-12-01-03-234-xyz-mmhasanovee-fnflocationtracker.png =100x20 )
-![alt text](https://i.ibb.co/mC2w79F/Screenshot-2019-10-15-00-27-52-755-xyz-mmhasanovee-fnflocationtracker.png)
-![alt text](https://i.ibb.co/vHKdVZZ/Screenshot-2019-10-15-00-24-41-802-xyz-mmhasanovee-fnflocationtracker.png)
+![alt text](https://i.ibb.co/ZVQTXby/Screenshot-2019-10-19-12-01-03-234-xyz-mmhasanovee-fnflocationtracker.png )
+
 
 ## Demo/Play Store link
 * [Fnf Location Tracker](https://play.google.com/store/apps/details?id=xyz.mmhasanovee.fnflocationtracker)
