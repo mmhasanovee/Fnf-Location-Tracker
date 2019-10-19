@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+
+   <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/friend_profile_image_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+       android:layout_centerHorizontal="true"
+
+        android:src="@drawable/ic_person_outline_black_500dp"/>
+
+    <TextView
+        android:layout_below="@+id/friend_profile_image_view"
+        android:id="@+id/friend_profile_name"
+        android:layout_centerInParent="true"
+        android:textSize="35sp"
+        android:text="Name: Unknown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_below="@+id/friend_profile_name"
+        android:id="@+id/friend_profile_address"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+
+        android:text="Location: Unknown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_marginTop="17dp"
+        android:src="@drawable/ic_place_black_24dp"
+        android:layout_below="@+id/friend_profile_name"
+        android:layout_toStartOf="@+id/friend_profile_address"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_below="@+id/friend_profile_address"
+        android:id="@+id/friend_profile_phone"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:textIsSelectable="true"
+        android:text="Phone: Unknown"
+        android:padding="5dp"
+        android:background="@drawable/button_message_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/friend_profile_phone"
+        android:id="@+id/friend_profile_email"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/friend_remove_btn"
+
+        android:text="Remove friend"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+       android:layout_below="@+id/friend_profile_email"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+
+</RelativeLayout>

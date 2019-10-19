@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_find_people"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Find new people" />
+
+        <item
+            android:id="@+id/nav_add_people"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="New friend requests" />
+        <item
+            android:id="@+id/nav_user_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Profile setting" />
+
+    </group>
+
+    <item android:title="System">
+        <menu>
+
+
+
+            <item
+                android:id="@+id/nav_exit_app"
+                android:icon="@drawable/ic_close_pink_24dp"
+                android:title="Close" />
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Sign Out" />
+
+        </menu>
+    </item>
+
+</menu>

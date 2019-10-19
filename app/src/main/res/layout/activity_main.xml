@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+     android:background="@color/colorAccent">
+
+
+    <ProgressBar
+        android:layout_marginTop="100dp"
+        android:indeterminateTint="@android:color/white"
+        android:indeterminateTintMode="src_in"
+        android:id="@+id/progress_bar_main"
+
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:text="Connecting to Google...."
+        android:layout_below="@+id/progress_bar_main"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
