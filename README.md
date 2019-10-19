@@ -19,12 +19,12 @@ Google Maps Android Api key.
 
 ## Features
 
-*Google login
-*User profile update
-*Search new people
-*Add/remove friends
-*Locate friends
-*Locate your position
+1. Google login
+2. User profile update
+3. Search new people
+4. Add/remove friends
+5. Locate friends
+6. Locate your position
 
 
 
