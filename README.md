@@ -8,6 +8,7 @@ Android app to track your friends and family current location.
 
 ## Requirements
 *Android Studio
+*Firebase Account. No subscription needed.
 
 ## Install
 1. Connect Firebase Realtime database to the project. Download the Realtime Database project's google-services.json file. And copy
