@@ -14,7 +14,7 @@ public interface IFCMService {
     @Headers({
 
         "Content-Type:application/json",
-            "Authorization:key=AAAAYYmjsBg:APA91bH9e77tAKU4me1ycgsL6gHj0-PmaISn0_bF_WR1sknbiCxuBSjyviKfTDeoQsbEyktgtWsmHRJkSy9cJomlLia2Vu0V0Z6Eb-Scr9gg-VwJt-U0f4ARhf9KTEsxuCI-qyPZ0yfs"
+            "Authorization:key="
 
     })
 
