@@ -30,7 +30,5 @@ Google Maps Android Api key.
 
 
 ## License
-
-``` 
-
-```
+MIT License
+Copyright (c) 2019 Md Mehedi Hasan
