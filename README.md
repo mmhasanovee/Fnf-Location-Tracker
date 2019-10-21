@@ -15,6 +15,7 @@ and paste the json data on **Fnf-Location-Tracker-Master/App/google-services.jso
 2. Connect with your Google Maps api from Google Cloud Console. Copy the Android api key and add it to 
 **Fnf-Location-Tracker-Master/App/debug/res/values/google_maps_api.xml** file's **Your-Key-Here position**. Replace the Your-Key-Here by
 Google Maps Android Api key.
+3. Connect with Firebase Cloud Messaging. Go to your Firebase **project>Project Setting>Cloud Messaging>Copy Server key** and paste it to   **Fnf-Location-Tracker/app/src/main/java/xyz/mmhasanovee/fnflocationtracker/Remote/IFCMService.java** file's  **"Authorization:key="** field. Suppose, server key = xyzmariariariaria. So, **"Authorization:key=xyzmariariariaria"**.
 3. Run the project. It will download the Gradle/other files itself.
 
 ## Features
